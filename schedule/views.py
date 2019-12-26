@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
-# from openpyxl import load_workbook
-# Create your views here.
+from mscripts import exploree
 
 
 def upload(request):
@@ -15,18 +14,10 @@ def upload(request):
     return render(request, 'schedule/upload.html')
 
 
-def show(request):
-    return render(request, "schedule/schedulee.html")
-
-
 def index(request):
     return render(request, 'schedule/index.html')
 
 
-# def analyze(_excel_file):
-#     try:
-#         wb2 = load_workbook(_excel_file)
-#
-#     except BaseException:
-#         pass
-#     pass
+def view_func(request):
+    values = exploree.cargo_axis_pointer(0, 2)
+    return render(request, "schedule/upload.html", {'values': values})
