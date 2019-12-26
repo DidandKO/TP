@@ -9,15 +9,16 @@ def upload(request):
         print(uploaded_file.name)
         print(uploaded_file.size)
         fs = FileSystemStorage()
-        # analyze(fs)
         fs.save(uploaded_file.name, uploaded_file)
     return render(request, 'schedule/upload.html')
 
 
 def index(request):
+    print(")))")
     return render(request, 'schedule/index.html')
 
 
 def view_func(request):
-    values = exploree.cargo_axis_pointer(0, 2)
-    return render(request, "schedule/upload.html", {'values': values})
+    exploree.cargo_axis_pointer(4, 2)
+    print("!!!")
+    return render(request, "schedule/schedul.html")
