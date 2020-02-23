@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff8301f-bd7f-4a43-968f-dbb806f6bcdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/schedule/templates/schedule/schedul.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/Данные опытов (1).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mscripts/exploree.py" beforeDir="false" afterPath="$PROJECT_DIR$/mscripts/exploree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/static/schedule/images/schedulee.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule/templates/schedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/templates/schedule/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule/templates/schedule/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/templates/schedule/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="442">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -39,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -57,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mscripts/exploree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="34">
               <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -72,17 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            <state relative-caret-position="985">
+              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -133,16 +129,16 @@
         <option value="$PROJECT_DIR$/TP/urls.py" />
         <option value="$PROJECT_DIR$/schedule/urls.py" />
         <option value="$PROJECT_DIR$/schedule/templates/schedule/schedul.html" />
+        <option value="$PROJECT_DIR$/mscripts/exploree.py" />
+        <option value="$PROJECT_DIR$/schedule/views.py" />
         <option value="$PROJECT_DIR$/schedule/templates/schedule/index.html" />
         <option value="$PROJECT_DIR$/schedule/templates/schedule/upload.html" />
-        <option value="$PROJECT_DIR$/schedule/views.py" />
-        <option value="$PROJECT_DIR$/mscripts/exploree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="435" />
-    <option name="y" value="42" />
+    <option name="x" value="697" />
+    <option name="y" value="1" />
     <option name="width" value="1142" />
     <option name="height" value="1023" />
   </component>
@@ -159,6 +155,11 @@
             <path>
               <item name="TP" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TP" type="b2602c69:ProjectViewProjectNode" />
@@ -182,14 +183,6 @@
               <item name="schedule" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TP" type="b2602c69:ProjectViewProjectNode" />
@@ -316,31 +309,42 @@
       <workItem from="1577120617749" duration="216000" />
       <workItem from="1577120988111" duration="1451000" />
       <workItem from="1577390756162" duration="229000" />
-      <workItem from="1577391307359" duration="11699000" />
+      <workItem from="1577391307359" duration="11933000" />
+      <workItem from="1581764467149" duration="1209000" />
+      <workItem from="1582439725295" duration="717000" />
     </task>
+    <task id="LOCAL-00001" summary="DONE1">
+      <created>1577404093512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577404093512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40121000" />
+    <option name="totallyTimeSpent" value="42188000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="42" width="1142" height="1023" extended-state="0" />
+    <frame x="697" y="1" width="1142" height="1023" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27171904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49871466" weight="0.26629212" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8262477" visible="true" weight="0.033707865" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49871466" weight="0.26516855" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82532346" weight="0.033707865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49815157" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17375231" side_tool="true" visible="true" weight="0.033707865" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49756098" weight="0.33932585" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50369686" side_tool="true" weight="0.33932585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49630314" visible="true" weight="0.06853933" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.80905926" weight="0.3280899" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,6 +359,10 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DONE1" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/schedule/apps.py" />
@@ -368,34 +376,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule/static/css/csschedule.css" />
-    <entry file="file://$PROJECT_DIR$/schedule/static/schedule/images/schedulee.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/schedule/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/my.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/csv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/media/my.csv" />
+    <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/csv.html" />
     <entry file="file://$PROJECT_DIR$/schedule/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/schedule/static/schedule/images/schedulee.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,13 +397,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TP/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedule/static/schedule/images/scheda.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/upload.html">
+    <entry file="file://$PROJECT_DIR$/TP/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="442">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -421,37 +431,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/settings.py">
+    <entry file="file://$PROJECT_DIR$/mscripts/exploree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="34">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule/templates/schedule/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedule/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mscripts/exploree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="744">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
         </state>
       </provider>
     </entry>
