@@ -22,4 +22,4 @@ def index(request):
 def view_func(request):
     exploree.cargo_axis_pointer(4, 2)
     print("!!!")
-    return render(request, "schedule/schedul.html")
+    return render(request, "schedule/upload.html")

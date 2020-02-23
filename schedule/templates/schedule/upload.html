@@ -1,26 +1,27 @@
 {% extends 'schedule/index.html' %}
 
 {% block content %}
-<div class="container"></div>
-
     <div class="container-fluid">
-  <div class="row">
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <div class="container">
-        <div class="uploader">
-            <h2>Загрузить</h2>
-            <form enctype="multipart/form-data" method="post">
-                {% csrf_token %}
-                <input type="file" name="document">
-                <button type="submit">Отправить</button>
-                <a href="/schedul" class="btn btn-info btn-lg">Показать график</a>
-            </form>
+        <div class="row">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <div class="container">
+                        <div class="uploader">
+                            <h2>Загрузить</h2>
+                            <form enctype="multipart/form-data" method="post">
+                                {% csrf_token %}
+                                <input type="file" name="document">
+                                <button type="submit">Отправить</button>
+                                <a href="/schedul" class="btn btn-info btn-lg">Показать график</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                       {% load static %}
+                    <img src="{% static 'schedule/images/scheda.png' %}">
+                </div>
+            </main>
         </div>
     </div>
-      </div>
-
-    </main>
-  </div>
-</div>
 {% endblock %}
