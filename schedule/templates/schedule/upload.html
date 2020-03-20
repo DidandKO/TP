@@ -11,15 +11,59 @@
                             <form enctype="multipart/form-data" method="post">
                                 {% csrf_token %}
                                 <input type="file" name="document">
-                                <button type="submit">Отправить</button>
-                                <a href="/schedul" class="btn btn-info btn-lg">Показать график</a>
+                                <button type="submit">Отправить и показать</button>
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                       {% load static %}
-                    <img src="{% static 'schedule/images/scheda.png' %}">
+                    <h1 class="mb-5">Ampers:</h1>
+                        {% for amper in amperis %}
+                            <li>{{ amper.axis }} {{ amper.cargo }} {{ amper.operation }} {{ amper.value }}</li>
+                        {% endfor %}
+                    <div id="myDiv" style="width:80%;height:100%;">
+                        <script>
+                            var cargo1 = {
+                              x: {{ operation_array }},
+                              y: {{ ampers_cargo_axis00 }},
+                              type: 'scatter',
+                              name: 'груз - 0'
+                            };
+
+                            var cargo2 = {
+                              x: {{ operation_array }},
+                              y: {{ ampers_cargo_axis01 }},
+                              type: 'scatter',
+                              name: 'груз - 1'
+                            };
+
+                            var cargo3 = {
+                              x: {{ operation_array }},
+                              y: {{ ampers_cargo_axis02 }},
+                              type: 'scatter',
+                              name: 'груз - 2'
+                            };
+
+                            var cargo4 = {
+                              x: {{ operation_array }},
+                              y: {{ ampers_cargo_axis03 }},
+                              type: 'scatter',
+                              name: 'груз - 3'
+                            };
+
+                            var cargo5 = {
+                              x: {{ operation_array }},
+                              y: {{ ampers_cargo_axis04 }},
+                              type: 'scatter',
+                              name: 'груз - 4'
+                            };
+                            var data = [cargo1, cargo2, cargo3, cargo4, cargo5];
+
+                            var layout = {title:'Шестая ось'};
+
+                            Plotly.newPlot('myDiv', data, layout);
+                        </script>
+                    </div>
                 </div>
             </main>
         </div>
