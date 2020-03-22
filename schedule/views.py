@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from .models import Amperage
 from openpyxl import load_workbook
+from django.http import HttpResponse
+import requests
+import os
+from .models import Greeting
 
 
 def upload(request):
@@ -43,3 +47,13 @@ def upload(request):
 def index(request):
     print(")))")
     return render(request, 'schedule/index.html')
+
+
+def db(request):
+
+    greeting = Greeting()
+    greeting.save()
+
+    greetings = Greeting.objects.all()
+
+    return render(request, "db.html", {"greetings": greetings})
