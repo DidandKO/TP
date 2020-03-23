@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ff8301f-bd7f-4a43-968f-dbb806f6bcdd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,7 +276,7 @@
       <workItem from="1584678907716" duration="37915000" />
       <workItem from="1584736660920" duration="598000" />
       <workItem from="1584885518156" duration="121000" />
-      <workItem from="1584936887204" duration="697000" />
+      <workItem from="1584936887204" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="DONE1">
       <created>1577404093512</created>
@@ -304,11 +303,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85344000" />
+    <option name="totallyTimeSpent" value="85963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="743" y="0" width="1183" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29296526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -324,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49815157" weight="0.32822758" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50369686" side_tool="true" weight="0.33932585" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49630314" visible="true" weight="0.032822758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49630314" visible="true" weight="0.3501094" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.80905926" weight="0.3280899" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
