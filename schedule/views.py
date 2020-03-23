@@ -9,7 +9,10 @@ from .models import Greeting
 
 def upload(request):
     ampers_cargo_axis = [[[], [], [], [], []]]
-    Amperage.objects.all().delete()
+    try:
+        Amperage.objects.all()
+    except Exception:
+        pass
     operation_array = [31, 36, 37, 38, 40, 41, 44, 46, 49, 50, 51, 55]
     try:
         if request.method == 'POST':
