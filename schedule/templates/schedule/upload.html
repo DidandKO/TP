@@ -28,29 +28,7 @@
                             <li>{{ amper }}</li>
                         {% endfor %}
                         <script>
-
-
-
-                            //Best
-                            /*{#let ar = {{ ampers_cargo4 }};#}
-                            {#var data = [];#}
-                            {#for (var i = 0; i < ar.length; i++) {#}
-                            {#    var cargo =#}
-                            {#        {x: {{ operation_array }},#}
-                            {#            y: ar[i],#}
-                            {#            type: 'scatter',#}
-                            {#            name: 'груз-' + i,#}
-                            {#        };#}
-                            {#    data.push(cargo);#}
-                            {#            // var data = [cargo1, cargo2, cargo3, cargo4, cargo5];#}
-                            {#var lot_name =  + 'ось'#}
-                            {#var layout = {title: lot_name};#}
-                            {#Plotly.newPlot('myDiv', data, layout);#}*/
-
-
-
                             let ar = {{ amper_cargo_axis }};
-
                             var i = 0;
                             ar.forEach(function (entry) {
                                 var data = [];
@@ -64,7 +42,6 @@
                                         };
                                     data.push(cargo);
                                 }
-                                // var data = [cargo1, cargo2, cargo3, cargo4, cargo5];
                                 var lot_name = i + ' ось'
                                 var layout = {title: lot_name};
                                 var mydiv_id = 'myDiv'+i;
@@ -73,7 +50,6 @@
 
                         </script>
                     </div>
-                </div>
             </main>
         </div>
     </div>

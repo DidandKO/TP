@@ -9,10 +9,9 @@ from .models import Greeting
 
 
 def upload(request):
-    Amperage.objects.all().delete()
     ampers_cargo_axis = [[], [], [], [], [], []]
     try:
-        Amperage.objects.all()
+        Amperage.objects.all().delete()
     except Exception:
         pass
     operation_array = [31, 36, 37, 38, 40, 41, 44, 46, 49, 50, 51, 55]
