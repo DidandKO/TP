@@ -1,14 +1,16 @@
 from django.shortcuts import render
 from .models import Amperage
 from openpyxl import load_workbook
-from django.http import HttpResponse
-import requests
-import os
+import json
+# from django.http import HttpResponse
+# import requests
+# import os
 from .models import Greeting
 
 
 def upload(request):
-    ampers_cargo_axis = [[[], [], [], [], []]]
+    Amperage.objects.all().delete()
+    ampers_cargo_axis = [[], [], [], [], [], []]
     try:
         Amperage.objects.all()
     except Exception:
@@ -33,17 +35,16 @@ def upload(request):
                         amper.save()  # сохранение значения тока по операции
                         ampers.append(amper.value)
                     ampers_cargo.append(ampers)
+
                 ampers_cargo_axis.append(ampers_cargo)
                 ampers_cargo_axis.pop(0)
+        aca = ampers_cargo_axis
+
     except Exception:
         print('Find a problem!')
         pass
     print(ampers_cargo_axis)
-    return render(request, 'schedule/upload.html', context={'ampers_cargo_axis00': ampers_cargo_axis[0][0],
-                                                            'ampers_cargo_axis01': ampers_cargo_axis[0][1],
-                                                            'ampers_cargo_axis02': ampers_cargo_axis[0][2],
-                                                            'ampers_cargo_axis03': ampers_cargo_axis[0][3],
-                                                            'ampers_cargo_axis04': ampers_cargo_axis[0][4],
+    return render(request, 'schedule/upload.html', context={'amper_cargo_axis': aca,
                                                              'operation_array': operation_array})
 
 

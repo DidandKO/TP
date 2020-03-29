@@ -17,51 +17,60 @@
                     </div>
                 </div>
                 <div class="container">
+                    <div id="myDiv1"></div>
+                    <div id="myDiv2"></div>
+                    <div id="myDiv3"></div>
+                    <div id="myDiv4"></div>
+                    <div id="myDiv5"></div>
+                    <div id="myDiv6"></div>
                     <h1 class="mb-5">Ampers:</h1>
-                        {% for amper in amperis %}
-                            <li>{{ amper.axis }} {{ amper.cargo }} {{ amper.operation }} {{ amper.value }}</li>
+                        {% for amper in amper_cargo_axis %}
+                            <li>{{ amper }}</li>
                         {% endfor %}
-                    <div id="myDiv" style="width:80%;height:100%;">
                         <script>
-                            var cargo1 = {
-                              x: {{ operation_array }},
-                              y: {{ ampers_cargo_axis00 }},
-                              type: 'scatter',
-                              name: 'груз - 0'
-                            };
 
-                            var cargo2 = {
-                              x: {{ operation_array }},
-                              y: {{ ampers_cargo_axis01 }},
-                              type: 'scatter',
-                              name: 'груз - 1'
-                            };
 
-                            var cargo3 = {
-                              x: {{ operation_array }},
-                              y: {{ ampers_cargo_axis02 }},
-                              type: 'scatter',
-                              name: 'груз - 2'
-                            };
 
-                            var cargo4 = {
-                              x: {{ operation_array }},
-                              y: {{ ampers_cargo_axis03 }},
-                              type: 'scatter',
-                              name: 'груз - 3'
-                            };
+                            //Best
+                            /*{#let ar = {{ ampers_cargo4 }};#}
+                            {#var data = [];#}
+                            {#for (var i = 0; i < ar.length; i++) {#}
+                            {#    var cargo =#}
+                            {#        {x: {{ operation_array }},#}
+                            {#            y: ar[i],#}
+                            {#            type: 'scatter',#}
+                            {#            name: 'груз-' + i,#}
+                            {#        };#}
+                            {#    data.push(cargo);#}
+                            {#            // var data = [cargo1, cargo2, cargo3, cargo4, cargo5];#}
+                            {#var lot_name =  + 'ось'#}
+                            {#var layout = {title: lot_name};#}
+                            {#Plotly.newPlot('myDiv', data, layout);#}*/
 
-                            var cargo5 = {
-                              x: {{ operation_array }},
-                              y: {{ ampers_cargo_axis04 }},
-                              type: 'scatter',
-                              name: 'груз - 4'
-                            };
-                            var data = [cargo1, cargo2, cargo3, cargo4, cargo5];
 
-                            var layout = {title:'Шестая ось'};
 
-                            Plotly.newPlot('myDiv', data, layout);
+                            let ar = {{ amper_cargo_axis }};
+
+                            var i = 0;
+                            ar.forEach(function (entry) {
+                                var data = [];
+                                i++;
+                                for (var j = 0; j < entry.length; j++) {
+                                    var cargo =
+                                        {x: {{ operation_array }},
+                                            y: entry[j],
+                                            type: 'scatter',
+                                            name: 'груз-' + j,
+                                        };
+                                    data.push(cargo);
+                                }
+                                // var data = [cargo1, cargo2, cargo3, cargo4, cargo5];
+                                var lot_name = i + ' ось'
+                                var layout = {title: lot_name};
+                                var mydiv_id = 'myDiv'+i;
+                                Plotly.newPlot(mydiv_id, data, layout);
+                            })
+
                         </script>
                     </div>
                 </div>
